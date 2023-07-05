@@ -4,7 +4,7 @@ import './projects.css'
 function Cards (props) {
     console.log('Parameter : ', props)
   return (
-    <div className='projects__cards' >
+    <div >
         <a>
         <img className='img__cards' src= {props.c_img} alt="Vector" />
         </a>

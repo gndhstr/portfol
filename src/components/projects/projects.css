@@ -3,6 +3,12 @@
     margin-top: 4rem;
 }
 
+h2 {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
 .projects__container {
     display: flex;
     gap: 1.2rem;
@@ -106,13 +112,10 @@ small {
 
 /* ========== MEDIA QUERIES (SML) ========== */
 @media screen and (max-width : 600px) {
-    .about__img {
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
-
-    p {
-        text-align: left;
+    .projects__cards {
+        text-align: center;
+        margin: auto;
+        
     }
 }
 
