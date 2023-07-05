@@ -1,0 +1,37 @@
+.leaf {
+    position: relative;
+    left: 0;
+    background: transparent;
+}
+
+.leaf .leaf1 {
+    width: 3rem;
+    position: relative;
+    float: left;
+    left: 4rem;
+    top: 9rem;
+}
+.leaf .leaf2 {
+    width: 3rem;
+    position: relative;
+    float: right;
+    top: 16rem;
+    right: 4rem;
+}
+
+/* ========== MEDIA QUERIES (MED) ========== */
+@media screen and (max-width : 1023px) {
+    .leaf .leaf1{
+        left: 1rem;
+    }
+    .leaf .leaf2{
+        right: 1rem;
+    }
+}
+
+/* ========== MEDIA QUERIES (SML) ========== */
+@media screen and (max-width : 600px) {
+    .hutan {
+        height: 40vh;
+    }
+}

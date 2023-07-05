@@ -1,0 +1,29 @@
+import React from 'react'
+import './about.css'
+import profile from '../../assets/profile2.jpg'
+import Desc from './description'
+
+const About = () => {
+  return (
+    <section id='about'>
+      <h2 className='h2__about'><span>About</span> Me</h2>
+      <div className='container about__container'>
+        <div className='about__img'>
+          <img src={profile} alt="photos" />
+        </div>
+
+        <div className='about__contents'>
+          <div className='about__desc'>
+            <h3>Gandhi<span> Satria Mukti</span></h3>
+            <h4 className='h4__about'>Student</h4>
+            <Desc />
+          </div>
+
+          {/* <a className='btn btn-primary' href="#contacts">Let's Talk</a> */}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default About

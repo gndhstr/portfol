@@ -1,0 +1,79 @@
+#footer {
+    margin-top: 10rem;
+    padding: 3rem 0;
+    background: linear-gradient(-90deg, var(--color-primary), var(--color-primary-varians));
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#footer a {
+    color: var(--color-bg);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+.permalinks a:hover {
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+    color: black;
+}
+
+.social a {
+    background: var(--color-bg);
+    color: var(--color-primary);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.social .social__logo {
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.social a:hover {
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.social a:hover .social__logo {
+    color: var(--color-bg);
+}
+
+.footer__copyright {
+    margin-bottom: 4rem;
+    color: var(--color-bg);
+}
+
+/* ========== MEDIA QUERIES (SML) ========== */
+@media screen and (max-width : 600px) {
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .social {
+        margin-bottom: 2.6rem;
+    }
+}

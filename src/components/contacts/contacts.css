@@ -1,0 +1,118 @@
+.contact__container {
+    height: max-content;
+    display: grid;
+    grid-template-columns: 35% 50%;
+    margin-top: 5rem;
+}
+
+.contact__flex {
+    display: flex;
+    margin: auto;
+}
+
+.contact__flex h4 {
+    color: var(--color-bg);
+    padding-left: 0.5rem;
+    font-weight: 400;
+}
+
+.text__list {
+    color: var(--color-bg);
+    font-weight: 300;
+}
+.contact__list {
+    position: relative;
+    margin: auto;
+    margin: 1rem 0;
+}
+
+.cards__section {
+    margin: auto;
+}
+
+.icon__list {
+    color: var(--color-bg);
+    font-size: 1.1rem;
+    margin: auto 0;
+}
+
+.git__cards {
+    margin: auto auto auto 0;
+    background: linear-gradient(-90deg, var(--color-primary), var(--color-primary-varians));
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    z-index: 1;
+}
+
+.git__cards h2 {
+    color: var(--color-bg);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.form__section {
+    background: var(--color-bg);
+    height: max-content;
+    margin: auto -30% auto -14rem;
+    padding: 2rem 2rem 2rem 12rem;
+    border-radius: 1rem;
+    box-shadow:
+    0px 0.6px 3.1px rgba(0, 0, 0, 0.125),
+    0px 5px 25px rgba(0, 0, 0, 0.25)
+    ;
+}
+
+.form__section h2 {
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 1px solid var(--color-black);
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn__submit {
+    padding: 0.5rem;
+}
+
+/* ========== MEDIA QUERIES (MED) ========== */
+@media screen and (max-width : 1024px) {
+    .form__section {
+        margin-left: -45%;
+    }   
+}
+
+/* ========== MEDIA QUERIES (SML) ========== */
+@media screen and (max-width : 600px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .git__cards {
+        margin: auto 1rem;
+    }
+
+    .form__section {
+        background: var(--color-bg);
+        height: max-content;
+        margin: auto 1rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        box-shadow:
+        0px 0.6px 3.1px rgba(0, 0, 0, 0.125),
+        0px 5px 25px rgba(0, 0, 0, 0.25)
+        ;
+    }
+}
