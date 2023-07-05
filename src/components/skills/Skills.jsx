@@ -46,19 +46,19 @@ const Skills = () => {
           <ToolsLi 
           itools={SiAdobephotoshop}
           ttools="Adobe Photoshop"
-          tdesc="Using Adope Photoshop for 2 Years."/>
+          tdesc="Using Adobe Photoshop for 2 years."/>
           <ToolsLi 
           itools={SiBlender}
           ttools="Blender"
-          tdesc="Using Adope Photoshop for 2 Years."/>
+          tdesc="Using Blender for 3D design."/>
           <ToolsLi 
           itools={FaPenNib}
           ttools="Infinite Design"
-          tdesc="Using Adope Photoshop for 2 Years."/>
+          tdesc="Using Infinite Design for Vector."/>
           <ToolsLi 
           itools={CgFigma}
           ttools="Figma"
-          tdesc="Using Adope Photoshop for 2 Years."/>
+          tdesc="Using Figma to design UI"/>
         </div>
       </div>
     </section>
