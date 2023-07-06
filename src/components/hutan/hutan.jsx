@@ -11,13 +11,13 @@ import Hill4 from'../../assets/hill4.png'
 const hutan = () => {
   return (
     <div id='skills' className='hutan'>
-        <img src={Hill4}/>
+        <img src={Hill4} alt='hutan4' />
         <ScrollAnimation animateIn='animate__fadeInUp'>
         <h1 id='text'>EXPERIENCE</h1>
         </ScrollAnimation>
-        <img src={Hill3}/>
-        <img src={Hill2}/>
-        <img src={Hill1}/>
+        <img src={Hill3} alt='hutan3'/>
+        <img src={Hill2} alt='hutan2'/>
+        <img src={Hill1} alt='hutan1'/>
     </div>
   )
 }

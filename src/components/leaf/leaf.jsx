@@ -8,10 +8,10 @@ const leaf = () => {
   return (
     <Parallax pages={1} className="leaf">
       <ParallaxLayer offset={0} speed={0.3}>
-        <img src={leaf1} className='leaf1' />
+        <img src={leaf1} className='leaf1' alt='leaf' />
       </ParallaxLayer>
       <ParallaxLayer offset={0} speed={0.3}>
-        <img src={leaf2} className='leaf2' />
+        <img src={leaf2} className='leaf2' alt='leaf' />
       </ParallaxLayer>
     </Parallax>
   )

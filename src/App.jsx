@@ -1,7 +1,6 @@
 import './App.css';
 // Importing components
 import Header from './components/header/Header'
-import Music from './components/music/Music'
 import About from './components/about/About'
 import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
