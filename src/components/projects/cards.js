@@ -2,7 +2,6 @@ import React from 'react'
 import './projects.css'
 
 function Cards (props) {
-    console.log('Parameter : ', props)
   return (
     <div >
         <img className='img__cards' src= {props.c_img} alt="Vector" />
