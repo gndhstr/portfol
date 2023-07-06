@@ -66,6 +66,7 @@
 .form__section h2 {
     margin-bottom: 2rem;
     font-weight: 500;
+    padding-left: 0;
 }
 
 .form {

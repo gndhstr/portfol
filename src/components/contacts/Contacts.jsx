@@ -1,6 +1,7 @@
 import React from 'react'
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 import './contacts.css'
 
@@ -25,6 +26,7 @@ const Contacts = () => {
 
   return (
     <section id='contacts'>
+      <ScrollAnimation animateIn='animate__fadeIn'>
       <div className='container contact__container'>
         <div className='git__cards'>
           <h2>Get in Touch</h2>
@@ -51,6 +53,7 @@ const Contacts = () => {
           </form>
         </div>
       </div>
+      </ScrollAnimation>
     </section>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './skills.css'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 import Skillsect from './skillsect'
 import Cardskill from './cardskill'
@@ -16,8 +17,11 @@ const Skills = () => {
   return (
     <section className='skillbg' id='skills'>
       <div className='container skills__container'>
-      <h1 className='text__title'>"Experience is the best teacher."</h1>
-      <p className='text__paragraph'>people learn more and gain more wisdom from actual observation and contact with events or facts rather than hearing about these events or facts secondhand.</p>
+        <ScrollAnimation animateIn='animate__fadeIn'>
+        <h1 className='text__title'>"Experience is the best teacher."</h1>
+        <p className='text__paragraph'>people learn more and gain more wisdom from actual observation and contact with events or facts rather than hearing about these events or facts secondhand.</p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='animate__fadeIn'>
         <div className='skills__container2'>
           <Cardskill 
           icon={VscOrganization}
@@ -32,11 +36,15 @@ const Skills = () => {
           titlec="Lecturer Assistant"
           smallc="Lecturer asistant in in the course of numerical methods practice."/>
         </div>
+        </ScrollAnimation>
       </div>
-
-      <Skillsect />
+      
+      <ScrollAnimation animateIn='animate__fadeIn'>
+        <Skillsect />
+      </ScrollAnimation>
       <Leaf />
 
+      <ScrollAnimation animateIn='animate__fadeIn'>
       <div className='container tools__container'>
         <div className='left__tools'>
           <h1 className='tools_title'><b><span>What</span> i use?</b></h1>
@@ -61,6 +69,7 @@ const Skills = () => {
           tdesc="Using Figma to design UI"/>
         </div>
       </div>
+      </ScrollAnimation>
     </section>
   )
 }
