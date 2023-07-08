@@ -109,12 +109,15 @@ li {
     padding-top: 0.28rem;
     margin: auto 0;
     z-index: 1;
+    border: transparent;
 }
 
 .icon__tools:hover {
     color: var(--color-bg);
     background: linear-gradient(-90deg, var(--color-black), var(--color-dark));
     transition: var(--transition);
+    border: 1px solid var(--color-black);
+    padding-top: 0.20rem;
 }
 
 .text__tools {
