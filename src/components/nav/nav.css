@@ -14,7 +14,7 @@ nav {
     0px 10.9px 13.6px rgba(0, 0, 0, 0.115),
     0px 87px 109px rgba(0, 0, 0, 0.23);
     backdrop-filter: blur(15px);
-    z-index : 2;
+    z-index : 99;
 }
 
 nav a {
