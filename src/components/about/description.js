@@ -6,7 +6,7 @@ const description = () => {
         <p>
             Hello, my name is Gandhi Satria Mukti. I am an active student at Semarang State University, 
             Faculty of Engineering, Informatics and Computer Engineering Education Study Program. 
-            I'm currently in Semester 5
+            I'm currently in Semester 6
         </p>
         <p>
         I have an interest in the field of computers, especially programming and graphic design.
